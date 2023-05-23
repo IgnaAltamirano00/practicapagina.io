@@ -1,0 +1,103 @@
+body{
+    font-size: larger;
+}
+
+#primer{
+    background-color: rgb(29, 165, 29);
+}
+
+#seg{
+    background-color: lightgray;
+}
+
+#terc{
+    background-color: orange;
+}
+
+.i1{
+    float: left;
+    padding: 3px;
+    width: 200px;
+    height: 150px;
+}
+
+.i2{
+    float: right;
+    padding: 3px;
+    width: 200px;
+    height: 150px;
+}
+
+.index-d1{
+    border: 2px solid black;
+    margin: 10px;
+    background-color: lightblue;
+}
+
+.index-d2{
+    border: 2px solid black;
+    margin: 10px;
+    background-color: lightblue;
+}
+
+.img-align{
+    width: 140px;
+    height: 140px;
+    margin: 0 170px;
+}
+
+.container-img{
+    display: flex;
+    justify-content: center;
+}
+
+.text-align{
+    margin: 0 210px;
+}
+
+.container-txt{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(78, 94, 214);
+    color: white;
+}
+
+h3{
+    text-decoration: underline black;
+    text-align: center;
+}
+
+.mult-align{
+    width: 200px;
+    height: 200px;
+    margin: 0 40px;
+}
+
+.mult-1{
+    border: 2px;
+    margin: 5px;
+}
+
+.gal-align{
+    text-align: center;
+    text-decoration: underline black;
+}
+
+.mult-2{
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    float: left;
+    padding: 3px;
+    width: 400px;
+    height: 230px;
+}

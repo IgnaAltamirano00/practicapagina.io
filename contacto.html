@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilosprac.css">
+    <title>CONTACTO</title>
+</head>
+<body id="seg">
+    <header> 
+        <h2>FORMULARIO DE CONTACTO</h2>
+    </header>
+    <section>
+        <form>
+            <span>
+                NOMBRE: <input type="text" name="nombre" required> *
+            </span><br><br>
+            <span>
+                DNI: <input type="number" name="dni" required> *
+            </span><br><br>
+            <span>
+                EMAIL: <input type="email" name="email" required> *
+            </span><br><br>
+            <span>
+                EDAD: <input type="number" name="nombre" min="0" max="99">
+            </span><br><br>
+            <span>
+                PAIS: <select name="pais">
+                    <option value="1">ARGENTINA</option>
+                    <option value="2">CHILE</option>
+                    <option value="3">VENEZUELA</option>
+                    <option value="4">BRASIL</option>
+                </select>
+            </span><br><br>
+            <span>
+                IDIOMAS:
+                <input type="checkbox" name="ingles"> INGLES
+                <input type="checkbox" name="espaniol"> ESPANIOL
+                <input type="checkbox" name="italiano"> ITALIANO
+            </span><br><br>
+            <button id="idformulario">ENVIAR</button>
+        </form>
+        
+    </section>
+    
+</body>
+</html>
